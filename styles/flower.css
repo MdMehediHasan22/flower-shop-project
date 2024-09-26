@@ -181,7 +181,7 @@ main {
 .lower{
     
     width: auto;
-    background-image: url('/flower-asset/rectangle\ 9.png');
+    background-image: url('./flower-asset/rectangle\ 9.png');
 }
 .deals{
     padding: 60px 60px 60px 60px;
