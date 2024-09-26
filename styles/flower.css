@@ -51,7 +51,7 @@ main section{
   margin-top: 130px ;
 }
 main {
-    max-width: 1240px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -66,7 +66,9 @@ main {
     text-align: center;
     margin-bottom: 30px;
 }
-
+.featured-flowers{
+    text-align: center;
+}
 .pink-flowers {
     display: flex;
     gap: 40px;
@@ -74,7 +76,7 @@ main {
 }
 .flowers{
     text-align: center;
-    background-color: #ecbbbb; /* Replace with your desired color */
+    background-color: #f7bdca5b; /* Replace with your desired color */
     border-radius: 50% 50% 0 0; /* Adjust as needed */
     /* clip-path: ellipse(50% 40% at center top); // Experiment with different shapes */
     padding: 30px 0px 0px 30px;
@@ -82,8 +84,130 @@ main {
 }
 
 
-img {
+.img-item {
     height: 350px;
     width: 300px;
     padding: 0px 70px 0px 40px;
+}
+/* support */
+.support-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #75757528;
+     /* Adjust spacing between icons */
+    padding: 60px; /* Add padding around the container */
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-item {
+    width: 70px; /* Adjust icon size as needed */
+    height: 70px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-description{
+    font-size: 14px;
+    color: #757575; /* Adjust font color */
+}
+/* discount */
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7bdca5b;
+    margin-top: 130px;
+    padding: 60px 300px 60px 300px;
+    align-items: center;
+}
+.banner2 .profile-pic2{
+    width: 350px;
+    height: 400px;
+}
+.banner2-title{
+    font-size: 35px;
+    font-weight:700;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.banner2-content{
+    max-width: 800px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    align-items: center;
+    
+
+    
+    
+}
+.banner2-description{
+    margin-top: 0px;
+    font-size: 20px;
+    color: #757575;
+    margin: 30px 0px;
+    
+    
+}
+/* social */
+
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 130px;
+}
+.section-description{
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.social-media-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    
+}
+.social-items{
+    margin:10px;
+}
+
+.lower{
+    
+    width: auto;
+    background-image: url('/flower-asset/rectangle\ 9.png');
+}
+.deals{
+    padding: 60px 60px 60px 60px;
+}
+.input-container{
+    display: flex;
+    gap: 10px;
+    margin: 40px;
+    padding-left: 250px;
+    
+}
+.title{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+.description{
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+input{
+    width: 600px; /* Adjust width as needed */
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: none;
 }
